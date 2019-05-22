@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>The Scala.js Tutorial</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, td, th, tr {
+            border: 1px solid black;
+            width: 50px;
+            text-align: center;
+            background-color: aquamarine;
+        }
+    </style>
+  </head>
+  <div class="jumbotron text-center">
+        <h1>STACK</h1>
+  </div>
+  <body>
+    <div>
+            <br /><br /><br /><br />
+            <center>   
+                <input type="number" name="" id="num-input" />
+            </center>
+            <br />
+            <div  style="display: flex; justify-content: space-around">
+                <div>
+                    <button id="Push" onclick=Push() class="btn btn-success">Push</button><br>
+                </div>
+                <div>
+                    <button id="Pop"  onclick=Pop()  class="btn btn-danger">Pop</button>
+                </div>
+            </div>
+    </div>
+    <br /><br /><br /><br />
+    <center>
+        <div>
+                <table id="stack-div">
+                </table>
+        </div>
+    </center>
+    
+    <script type="text/javascript" src="./target/scala-2.11/stack-fastopt.js"></script>
+  </body>
+</html>

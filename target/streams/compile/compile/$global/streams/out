@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/sarthak/VLEAD/final/stack/src/main/scala/tutorial/webapp/TutorialApp.scala:12:9: not found: value stack[0m
+[0m[[0m[31merror[0m] [0m[0m        stack = document.getElementById("stack-div").asInstanceOf[html.Input][0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sarthak/VLEAD/final/stack/src/main/scala/tutorial/webapp/TutorialApp.scala:13:9: not found: value stack[0m
+[0m[[0m[31merror[0m] [0m[0m        stack.insertBefore(parNode,stack.childNodes.apply(0))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sarthak/VLEAD/final/stack/src/main/scala/tutorial/webapp/TutorialApp.scala:13:36: not found: value stack[0m
+[0m[[0m[31merror[0m] [0m[0m        stack.insertBefore(parNode,stack.childNodes.apply(0))[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

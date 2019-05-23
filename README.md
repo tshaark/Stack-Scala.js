@@ -1,4 +1,4 @@
-### Stack-Implementation-Scala.js
+# Stack-Implementation-Scala.js
 [Reference Guide For Basic Setup](http://www.scala-js.org/doc/tutorial/basic/)
 
 This is a basic webapp developed using scala.js.
@@ -17,7 +17,7 @@ sudo apt-get install sbt
 ```
 
 ## Adjusting the code to your pc
-# You need to make changes to build.sbt, /project/build.properties, /project/plugins.sbt (/ is the webapp's root directory)
+### You need to make changes to build.sbt, /project/build.properties, /project/plugins.sbt (/ is the webapp's root directory)
 1- Check the sbt version installed
 
 ```bash

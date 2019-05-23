@@ -4,3 +4,11 @@ reload
 fastOptJS
 run
 fastOptJS
+run
+fastOptJS
+reload
+fastOptJS
+run
+fastOptJS
+reload
+compile
